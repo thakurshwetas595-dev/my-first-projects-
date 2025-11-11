@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guti Fashion Store</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #fff8f8;
+      color: #333;
+    }
+    header {
+      background-color: #ff6699;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.8em;
+    }
+    nav {
+      background: #ffe6eb;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #ff6699;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://i.imgur.com/n1tS1hR.jpg') center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px black;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 10px;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      background: #ff6699;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Guti Fashion Store</header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="hero">Trendy Styles for You</div>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://i.imgur.com/1Q9Z1.jpg" alt="Dress">
+      <h3>Summer Dress</h3>
+      <p>₹999</p>
+    </div>
+    <div class="product">
+      <img src="https://i.imgur.com/bd6T7.jpg" alt="Top">
+      <h3>Casual Top</h3>
+      <p>₹699</p>
+    </div>
+    <div class="product">
+      <img src="https://i.imgur.com/4P3V3.jpg" alt="Jeans">
+      <h3>Denim Jeans</h3>
+      <p>₹1199</p>
+    </div>
+  </section>
+
+  <footer>© 2025 Guti Fashion Store | Designed with ❤️ by You</footer>
+
+</body>
+</html>
